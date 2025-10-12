@@ -70,15 +70,8 @@
         status = "okay";
         dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>;
 
-        sensitivity = "4x";
+        sensitivity = "8x";
         sleep;
-
-        z-touch-detection;
-        z-threshold-touch = <5>;
-        z-threshold-release = <2>;
-        inertia;
-        inertia-start-velocity = <300>;
-        inertia-stop-velocity = <20>;
     };
 };
 
