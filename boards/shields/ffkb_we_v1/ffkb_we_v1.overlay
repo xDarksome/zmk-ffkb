@@ -70,7 +70,7 @@
         status = "okay";
         dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>;
 
-        sensitivity = "8x";
+        sensitivityy = "8x";
         sleep;
     };
 };
